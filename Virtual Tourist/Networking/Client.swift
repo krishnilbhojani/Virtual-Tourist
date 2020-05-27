@@ -97,9 +97,9 @@ extension Client {
     // MARK: - GET
     
     func taskForGETMethod(
-        _ method               : String? = nil,
-        _ customUrl            : URL? = nil,
-        parameters             : [String: String],
+        _ method: String? = nil,
+        _ customUrl: URL? = nil,
+        parameters: [String: String],
         completionHandlerForGET: @escaping (_ result: Data?, _ error: NSError?) -> Void) -> URLSessionDataTask {
         
         /* 2/3. Build the URL, Configure the request */
